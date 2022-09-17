@@ -3,3 +3,17 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: bisque;
+}
+
+.login__form {
+    width: 600px;
+    height: 400px;
+    margin-top: 10%;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
