@@ -4,14 +4,12 @@
     list-style: none;
 }
 
-body {
-    background-color: bisque;
-}
+
 
 .login__container {
     width: 100vw;
     height: 100vh;
-    background: #604c77;
+    background: #fff;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -24,6 +22,7 @@ body {
     background: #fff;
     border-radius: 15px;
     text-align: center;
+    border: solid 1px;
 }
 
 .login__form-input {
@@ -36,27 +35,31 @@ body {
 .login__form-login {
     width: 20%;
     height: 33%;
-    background:green;
+    background: #d3c9c9;
     border-radius: 15px 0 0 0;
-    /* display: flex;
-    flex-direction: column; */
+}
+.login__form-login:hover {
+    background-color: #604c77;
 }
 
 .login__form-register {
 width: 20%;
 height: 33%;
-background: red;
-/* display: flex;
-flex-direction: column; */
+background: #d3c9c9;;
+}
+.login__form-register:hover {
+    background-color: #604c77;
 }
 
 .login__form-password {
 width: 20%;
 height: 34%;
-background: red;
+background: #d3c9c9;;
 border-radius: 0 0 0 15px;
-/* display: flex;
-flex-direction: column; */
+
+}
+.login__form-password:hover {
+    background-color: #604c77;
 }
 
 .footer {
