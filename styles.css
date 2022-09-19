@@ -25,11 +25,19 @@
     border: solid 1px;
 }
 
-.login__form-input {
-    width: 20%;
-    height: 33.3%;
+.login__form-input-user {
+    width: 41%;
+    position: absolute;
+    right: 24%;
+    margin-top: 40px;
+}
+
+.login__form-input-pass {
+    width: 41%;
     background:blue;
-    position: relative;
+    position: absolute;
+    right: 24%;
+    margin-top: 160px;
 }
 
 .login__form-login {
