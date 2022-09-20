@@ -4,12 +4,23 @@
     list-style: none;
 }
 
-
+input {
+    width: 400px;
+    height: 25px;
+    border-radius: 5px;
+    border: solid 1px;
+}
+button {
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
 
 .login__container {
     width: 100vw;
     height: 100vh;
-    background: #fff;
+    background: #fEfEfE;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -19,7 +30,7 @@
 .login__form {
     width: 600px;
     height: 300px;
-    background: #fff;
+    background: #F2F2F2;
     border-radius: 15px;
     text-align: center;
     border: solid 1px;
@@ -28,50 +39,57 @@
 .login__form-input-user {
     width: 41%;
     position: absolute;
-    right: 24%;
+    right: 26%;
     margin-top: 40px;
 }
 
 .login__form-input-pass {
     width: 41%;
-    background:blue;
     position: absolute;
-    right: 24%;
+    right: 26%;
     margin-top: 160px;
 }
+
+.login__form-button button {
+    position: absolute;
+    top: 65%;
+    left: 46%;
+    background: #d0d9d6;  
+}
+
+.login__form-button button:hover { 
+    background: #B8C1B6;  
+}
+
 
 .login__form-login {
     width: 20%;
     height: 33%;
-    background: #d3c9c9;
+    background: #d0d9d6;
     border-radius: 15px 0 0 0;
 }
+
 .login__form-login:hover {
-    background-color: #604c77;
+    background-color: #B8C1B6;
+    
 }
 
 .login__form-register {
-width: 20%;
-height: 33%;
-background: #d3c9c9;;
+    width: 20%;
+    height: 33%;
+    background: #d0d9d6;
 }
 .login__form-register:hover {
-    background-color: #604c77;
+    background-color: #B8C1B6;
 }
 
 .login__form-password {
-width: 20%;
-height: 34%;
-background: #d3c9c9;;
-border-radius: 0 0 0 15px;
+    width: 20%;
+    height: 34%;
+    background: #d0d9d6;;
+    border-radius: 0 0 0 15px;
 
 }
 .login__form-password:hover {
-    background-color: #604c77;
+    background-color: #B8C1B6;
 }
-
-.footer {
-    display: flex;
-    justify-content: center;
-}
-
