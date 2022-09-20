@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    
 }
 
 input {
@@ -9,6 +14,7 @@ input {
     height: 25px;
     border-radius: 5px;
     border: solid 1px;
+    text-align: center;
 }
 button {
     width: 200px;
@@ -16,6 +22,7 @@ button {
     border-radius: 5px;
     border: none;
 }
+
 
 .login__container {
     width: 100vw;
@@ -33,14 +40,14 @@ button {
     background: #F2F2F2;
     border-radius: 15px;
     text-align: center;
-    border: solid 1px;
 }
 
 .login__form-input-user {
     width: 41%;
     position: absolute;
     right: 26%;
-    margin-top: 40px;
+    margin-top: 60px;
+    
 }
 
 .login__form-input-pass {
@@ -59,6 +66,7 @@ button {
 
 .login__form-button button:hover { 
     background: #B8C1B6;  
+    cursor: pointer;
 }
 
 
@@ -67,20 +75,23 @@ button {
     height: 33%;
     background: #d0d9d6;
     border-radius: 15px 0 0 0;
+    line-height : 100px;
 }
 
 .login__form-login:hover {
     background-color: #B8C1B6;
-    
+    cursor: pointer;
 }
 
 .login__form-register {
     width: 20%;
     height: 33%;
     background: #d0d9d6;
+    line-height : 100px;
 }
 .login__form-register:hover {
     background-color: #B8C1B6;
+    cursor: pointer;
 }
 
 .login__form-password {
@@ -88,8 +99,10 @@ button {
     height: 34%;
     background: #d0d9d6;;
     border-radius: 0 0 0 15px;
+    line-height : 100px;
 
 }
 .login__form-password:hover {
     background-color: #B8C1B6;
+    cursor: pointer;
 }
